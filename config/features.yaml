@@ -1,0 +1,5 @@
+# Runtime configuration
+cache_ttl: 300
+max_retries: 3
+session_timeout: 3600
+log_level: INFO

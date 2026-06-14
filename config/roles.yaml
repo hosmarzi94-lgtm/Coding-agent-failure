@@ -1,0 +1,13 @@
+# Role definitions - synced with permissions module
+roles:
+  admin:
+    level: 3
+    inherit: moderator
+  moderator:
+    level: 2
+    inherit: user
+  user:
+    level: 1
+    inherit: guest
+  guest:
+    level: 0
